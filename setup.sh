@@ -89,7 +89,7 @@ echo "Disabling Homebrew telemetry..."
 brew analytics off
 
 echo "Install Homebrew packages/casks/etc."
-brew bundle install -v --file=../Homebrew/Brewfile
+brew bundle install -v --file=.
 
 echo "Make Homebrew's version of zsh the default shell"
 # Append brew's zsh install to the list of acceptable shells for chpass(1)

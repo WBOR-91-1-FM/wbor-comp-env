@@ -1,4 +1,5 @@
 brew "jq"
+brew "zsh"
 brew "git"
 brew "mas"
 brew "nano"
